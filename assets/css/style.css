@@ -51,6 +51,9 @@ ul li {
 	padding: 0 0 4px 5px;
 	line-height: 1.5em;
 }
+hr {
+	border: solid 1px #f3f3f3;
+}
 
 .header {
 	background-color: darkslateblue;
@@ -174,15 +177,29 @@ ul.menu li a:hover {
 }
 
 .content {
-	text-align: center;
+	text-align: left;
 	width: 620px;
 	padding: 0 0 0 5px;
-	float: center;
+	float: left;
 }
 
 .content a {
 	text-decoration: none;
+}
 
+.films_block {
+	margin-bottom: 5%;
+}
+
+
+.films_block img {
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+	width: 22%;
+}
+
+.posts_content {
+	font-size: 0.8em;
 }
 
 .footer {
