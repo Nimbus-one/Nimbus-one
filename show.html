@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale-1.0">
 	<title>First projeckt</title>
 	<meta name="description" content="Первый опыт создания вебсайтов">
 	<meta name="keyword" content="семья, друзья" />
@@ -19,10 +20,10 @@
 			<div class="menubar">
 				<ul class="menu">
 					<li class="selected"><a href="index.html">Главная</a></li>
-					<li><a href="https://www.youtube.com/watch?v=r9lUQmO_1So">Фильмы</a></li>
+					<li><a href="films.html">Фильмы</a></li>
 					<li><a href="https://www.youtube.com/watch?v=r9lUQmO_1So">Сериалы</a></li>
-					<li><a href="https://www.youtube.com/watch?v=r9lUQmO_1So">Рейтинг фильмов</a></li>
-					<li><a href="https://www.youtube.com/watch?v=r9lUQmO_1So">Контакты</a></li>
+					<li><a href="rating.html">Рейтинг фильмов</a></li>
+					<li><a href="contact.html">Контакты</a></li>
 				</ul>
 			</div>
 		</div>
@@ -68,6 +69,36 @@
 					<span class="label">рейтинг: </span><span class="value">8.1 / 10</span>
 					<span class="label">год: </span><span class="value">2014</span>
 					<span class="label">режиссер: </span><span class="value">Кристофер Нолан</span>
+				</div>
+				<hr>
+				<h2>Описание Интерстеллар</h2>
+				<div class="discription_film">
+					<img src="assets/img/inter.png" alt="">
+					Когда засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету.
+				</div>
+				<hr>
+				<h2>Отзывы об Интерстеллар</h2>
+				<div class="reviews">
+					<div class="review_name">
+						Сергей
+					</div>
+					<div class="review_text">
+						Отличный фильм, 3 часа пролетели незаментно.
+					</div>
+				</div>
+				<div class="reviews">
+					<div class="review_name">
+						Дмитрий
+					</div>
+					<div class="review_text">
+						После фильма Начало, я с не терпением ждал еще работ от Кристофера Нолана. Интерстеллар меня впечатлил.
+					</div>
+				</div>
+				<div class="send">
+					<form method="post" action="#" id="review"></form>
+					<input type="text" name="review_name" placeholder="ваше имя">
+					<textarea name="review_text"></textarea>
+					<input type="submit" value="отправить">
 				</div>
 			</div>
 		</div>
